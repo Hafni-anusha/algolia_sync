@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include algolia_sync *.css
+recursive-include algolia_sync *.csv
+recursive-include algolia_sync *.html
+recursive-include algolia_sync *.ico
+recursive-include algolia_sync *.js
+recursive-include algolia_sync *.json
+recursive-include algolia_sync *.md
+recursive-include algolia_sync *.png
+recursive-include algolia_sync *.py
+recursive-include algolia_sync *.svg
+recursive-include algolia_sync *.txt
+recursive-exclude algolia_sync *.pyc
