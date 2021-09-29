@@ -95,8 +95,8 @@ doc_events = {
     "Item":{
         "after_insert":["algolia_sync.algolia.send_algolia"],
         "on_trash":["algolia_sync.algolia.delete_object"],
-        "on_update":["algolia_sync.algolia.update_object","algolia_sync.algolia.show_website"]
-    }
+        "on_update":["algolia_sync.algolia.update_object","algolia_sync.algolia.show_website"] 
+        }
 }
 fixtures = ["Custom Field"]
 # doc_events = {
